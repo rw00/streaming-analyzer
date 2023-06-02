@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  jackson:
+    # doesn't seem to work /:
+    property-naming-strategy: SNAKE_CASE
+streaming-data-sources:
+  sysney:
+    baseUrl: "http://localhost:8080/sysney"
+    username: "sytac"
+    password: "4p9g-Dv7T-u8fe-iz6y-SRW2"
+  sytazon:
+    baseUrl: "http://localhost:8080/sytazon"
+    username: "sytac"
+    password: "4p9g-Dv7T-u8fe-iz6y-SRW2"
+  sytflix:
+    baseUrl: "http://localhost:8080/sytflix"
+    username: "sytac"
+    password: "4p9g-Dv7T-u8fe-iz6y-SRW2"
